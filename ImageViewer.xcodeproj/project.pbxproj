@@ -14,6 +14,8 @@
 		BA209FEE20E5EDF200BEFEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA209FEC20E5EDF200BEFEB9 /* LaunchScreen.storyboard */; };
 		BA209FF920E5EDF200BEFEB9 /* ImageViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA209FF820E5EDF200BEFEB9 /* ImageViewerTests.swift */; };
 		BA20A00420E5EDF200BEFEB9 /* ImageViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20A00320E5EDF200BEFEB9 /* ImageViewerUITests.swift */; };
+		BA20A01420E5F26700BEFEB9 /* ImageObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20A01320E5F26700BEFEB9 /* ImageObj.swift */; };
+		BA20A01620E5F60B00BEFEB9 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20A01520E5F60B00BEFEB9 /* ImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BA209FFF20E5EDF200BEFEB9 /* ImageViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA20A00320E5EDF200BEFEB9 /* ImageViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerUITests.swift; sourceTree = "<group>"; };
 		BA20A00520E5EDF200BEFEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA20A01320E5F26700BEFEB9 /* ImageObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageObj.swift; sourceTree = "<group>"; };
+		BA20A01520E5F60B00BEFEB9 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				BA209FEA20E5EDF200BEFEB9 /* Assets.xcassets */,
 				BA209FEC20E5EDF200BEFEB9 /* LaunchScreen.storyboard */,
 				BA209FEF20E5EDF200BEFEB9 /* Info.plist */,
+				BA20A01320E5F26700BEFEB9 /* ImageObj.swift */,
+				BA20A01520E5F60B00BEFEB9 /* ImageTableViewCell.swift */,
 			);
 			path = ImageViewer;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA209FE620E5EDEF00BEFEB9 /* ViewController.swift in Sources */,
+				BA20A01620E5F60B00BEFEB9 /* ImageTableViewCell.swift in Sources */,
 				BA209FE420E5EDEF00BEFEB9 /* AppDelegate.swift in Sources */,
+				BA20A01420E5F26700BEFEB9 /* ImageObj.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
